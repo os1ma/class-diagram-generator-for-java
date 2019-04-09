@@ -5,8 +5,7 @@ set -o nounset
 set -o pipefail
 set -o xtrace
 
-#readonly IMAGE_NAME='os1ma/class-diagram-generator-for-java'
-readonly IMAGE_NAME='class-diagram-generator-for-java'
+readonly IMAGE_NAME='os1ma/class-diagram-generator-for-java'
 readonly IMAGE_TAG='latest'
 readonly CONTAINER_BASE_DIR="/volume"
 
