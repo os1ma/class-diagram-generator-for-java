@@ -1,7 +1,5 @@
 # class-diagram-generator-for-java
 
-[![CircleCI](https://circleci.com/gh/os1ma/class-diagram-generator-for-java.svg?style=svg)](https://circleci.com/gh/os1ma/class-diagram-generator-for-java)
-
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 PlantUML Class Diagram generator for Java
