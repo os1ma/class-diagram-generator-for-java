@@ -10,13 +10,15 @@ PlantUML Class Diagram generator for Java
 ## Usage
 
 ```bash
-$ ./run.sh ../my-java-project
-$ ls ../my-java-project
+$ pwd
+my-java-project
+$ curl -LO https://raw.githubusercontent.com/os1ma/class-diagram-generator-for-java/master/run.sh
+$ ./run.sh .
+$ ls .
     :
     :
     :
-output.pu
-output.png
+output.png output.pu
 ```
 
 ## References
