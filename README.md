@@ -13,8 +13,9 @@ PlantUML Class Diagram generator for Java
 $ pwd
 my-java-project
 $ curl -LO https://raw.githubusercontent.com/os1ma/class-diagram-generator-for-java/master/generate_class_diagram.sh
+$ chmod +x generate_class_diagram.sh
 $ ./generate_class_diagram.sh .
-$ ls .
+$ ls
     :
     :
     :
