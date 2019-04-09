@@ -9,7 +9,7 @@ readonly IMAGE_NAME='os1ma/class-diagram-generator-for-java'
 readonly IMAGE_TAG='latest'
 readonly CONTAINER_BASE_DIR="/work"
 readonly CONTAINER_WORKING_DIR="/app"
-readonly PU_FILE="${CONTAINER_BASE_DIR}/output.pu"
+readonly PU_FILE="${CONTAINER_BASE_DIR}/class-diagram.pu"
 
 readonly SCRIPT_DIR="$(cd "$(dirname "$0")"; pwd)"
 readonly HOST_BASE_DIR="$1"
