@@ -13,3 +13,7 @@ RUN groupadd -r -g 1000 app \
   && chown -R app:app /app
 
 USER app
+
+COPY entrypoint.sh .
+
+ENTRYPOINT ["./entrypoint.sh"]
