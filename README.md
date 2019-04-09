@@ -1,5 +1,7 @@
 # class-diagram-generator-for-java
 
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/os1ma/class-diagram-generator-for-java.svg)
+
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 PlantUML Class Diagram generator for Java
