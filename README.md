@@ -1,4 +1,4 @@
-# class-diagram-generator-java
+# class-diagram-generator-for-java
 
 PlantUML Class Diagram generator for Java
 
