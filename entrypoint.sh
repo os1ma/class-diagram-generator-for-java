@@ -14,6 +14,6 @@ java -jar plantuml-dependency-cli-*/plantuml-dependency-cli-*-jar-with-dependenc
   --basedir "${BASE_DIR}" \
   -o "${PU_FILE_ABSOLUTE_PATH}"
 
-sed -i '/ java\./d' "${PU_FILE_ABSOLUTE_PATH}"
+sed -i -E '/ (java|org)\./d' "${PU_FILE_ABSOLUTE_PATH}"
 
 java -jar plantuml.*.jar "${PU_FILE_ABSOLUTE_PATH}"
